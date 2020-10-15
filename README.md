@@ -1,6 +1,13 @@
-# home
+# Home
 
-A new Flutter project.
+A new Flutter project for Travel.
+
+>UI design
+
+|Splash Screen|Home Page|Specific item page|
+|---|---|---|
+|<img src="https://github.com/JustinWeru12/Home/blob/master/assets/readme/1.png" width="400px" height="auto">|<img src="https://github.com/JustinWeru12/Home/blob/master/assets/readme/2.png" width="400px" height="auto">|<img src="https://github.com/JustinWeru12/Home/blob/master/assets/readme/3.png" width="400px" height="auto">|
+
 
 ## Getting Started
 
