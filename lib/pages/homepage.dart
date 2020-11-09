@@ -6,6 +6,9 @@ import 'package:home/pages/specific.dart';
 import 'package:smooth_star_rating/smooth_star_rating.dart';
 
 class HomePage extends StatefulWidget {
+    final Function drawerCallback;
+
+  const HomePage({Key key, this.drawerCallback}) : super(key: key);
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -163,6 +166,13 @@ class _HomePageState extends State<HomePage> {
                   )),
             ),
             Align(alignment: Alignment.bottomCenter, child: MyBottomNavBar()),
+            InkWell(
+              onTap: widget.drawerCallback,
+                child: Icon(
+              Icons.short_text_rounded,
+              color: Colors.white,
+              size: 25,
+            ),),
           ],
         ),
       ),
